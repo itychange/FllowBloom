@@ -1,20 +1,11 @@
 package in.omerjerk.processingdemo.sketch;
 
-import android.annotation.TargetApi;
-import android.os.Build;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.AbsListView;
-import android.widget.Button;
-import android.widget.Toast;
 
 import java.util.ArrayList;
 
 import in.omerjerk.processingdemo.MainActivity;
-import in.omerjerk.processingdemo.R;
 import processing.core.PApplet;
 import processing.core.PImage;
 import processing.core.PShape;
