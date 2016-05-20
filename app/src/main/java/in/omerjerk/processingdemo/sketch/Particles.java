@@ -181,6 +181,7 @@ public class Particles extends PApplet {
 
 
 
+
         void setEmitter(float x, float y) {
             for (Particle p : particles) {
                 if (p.isDead()) {
