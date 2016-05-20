@@ -1,0 +1,25 @@
+
+<android.support.v7.widget.Toolbar
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="58dp"
+    android:background="#000000"
+    android:minHeight="?attr/actionBarSize"
+    android:titleTextColor="#ffffff"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/layout_horizon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/item_menu"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@android:drawable/menu_frame" />
+    </LinearLayout>
+    </HorizontalScrollView>
+</android.support.v7.widget.Toolbar>
