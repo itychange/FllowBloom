@@ -72,6 +72,7 @@ public class Particles extends PApplet {
         hint(DISABLE_DEPTH_MASK);
     }
 
+    
     @Override
     public void draw() {
         //background(255);
@@ -176,12 +177,6 @@ public class Particles extends PApplet {
                 p.update();
             }
         }
-
-
-
-
-
-
         void setEmitter(float x, float y) {
             for (Particle p : particles) {
                 if (p.isDead()) {
